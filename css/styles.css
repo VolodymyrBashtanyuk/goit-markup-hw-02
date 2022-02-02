@@ -1,0 +1,44 @@
+:root {
+  --main-background: #ffffff;
+  --sub-backgrount: #f5f4fa;
+  --footer-hero-background: #2f303a;
+  --color-accent: #2196f3;
+}
+
+body {
+  background-color: var(--main-background);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo > span {
+  color: var(--color-accent);
+}
+
+.nav .link,
+.contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-accent);
+}
