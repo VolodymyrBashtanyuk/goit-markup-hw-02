@@ -68,6 +68,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* section scills */
@@ -122,4 +123,8 @@ body {
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--color-accent);
 }
