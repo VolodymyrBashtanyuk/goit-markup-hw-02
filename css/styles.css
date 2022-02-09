@@ -71,6 +71,10 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+.hero .btn:hover,
+.herro.btn:focus {
+  background-color: #188ce8;
+}
 
 /* умение компании */
 .skills-title {
@@ -156,6 +160,7 @@ body {
 .footer-adr,
 .footer > a {
   color: #ffffff;
+  font-style: inherit;
 }
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
