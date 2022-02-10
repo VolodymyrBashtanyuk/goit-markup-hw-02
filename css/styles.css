@@ -41,6 +41,9 @@ body {
   text-decoration: none;
   letter-spacing: 0.02em;
 }
+.contacts .link {
+  color: #757575;
+}
 .link:hover,
 .link:focus {
   color: var(--color-accent);
